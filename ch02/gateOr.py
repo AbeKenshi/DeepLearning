@@ -1,3 +1,4 @@
+# coding: utf-8
 import numpy as np
 
 
@@ -11,8 +12,7 @@ def OR(x1, x2):
     else:
         return 1
 
-
-print(OR(0, 0))  # 0を出力
-print(OR(1, 0))  # 1を出力
-print(OR(0, 1))  # 1を出力
-print(OR(1, 1))  # 1を出力
+if __name__ == '__main__':
+    for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
+        y = OR(xs[0], xs[1])
+        print(str(xs) + " -> " + str(y))

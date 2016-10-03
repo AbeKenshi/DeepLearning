@@ -11,8 +11,7 @@ def NAND(x1, x2):
     else:
         return 1
 
-
-print(NAND(0, 0))  # 1を出力
-print(NAND(1, 0))  # 1を出力
-print(NAND(0, 1))  # 1を出力
-print(NAND(1, 1))  # 0を出力
+if __name__ == '__main__':
+    for xs in [(0, 0), (1, 0), (0, 1), (1, 1)]:
+        y = NAND(xs[0], xs[1])
+        print(str(xs) + " -> " + str(y))
