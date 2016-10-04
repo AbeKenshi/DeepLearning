@@ -1,3 +1,6 @@
+import matplotlib
+
+matplotlib.use('Qt4Agg')  # ウィンドウをshowしたときに前に出すときに必要
 import numpy as np
 import matplotlib.pylab as plt
 
