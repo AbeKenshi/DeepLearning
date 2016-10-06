@@ -1,7 +1,7 @@
 import matplotlib
 
 from ch04.function2 import function_2
-from ch04.numericalGradient import numerical_gradient
+from ch04.numericalGradient import numerical_gradient_2d
 
 matplotlib.use('Qt4Agg')  # ウィンドウをshowしたときに前に出すときに必要
 import numpy as np
@@ -15,7 +15,7 @@ if __name__ == '__main__':
     X = X.flatten()
     Y = Y.flatten()
 
-    grad = numerical_gradient(function_2, np.array([X, Y]))
+    grad = numerical_gradient_2d(function_2, np.array([X, Y]))
 
     plt.figure()
     plt.quiver(X, Y, -grad[0], -grad[1], angles="xy", color="#666666")  # ,headwidth=10,scale=40,color="#444444")

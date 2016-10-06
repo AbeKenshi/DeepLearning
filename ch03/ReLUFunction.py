@@ -8,6 +8,11 @@ import matplotlib.pyplot as plt
 def relu(x):
     return np.maximum(0, x)
 
+def relu_grad(x):
+    grad = np.zeros(x)
+    grad[x>=0] = 1
+    return grad
+
 
 if __name__ == '__main__':
     x = np.arange(-5.0, 5.0, 0.1)

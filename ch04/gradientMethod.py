@@ -3,7 +3,7 @@ import matplotlib
 
 matplotlib.use('Qt4Agg')  # ウィンドウをshowしたときに前に出すときに必要
 from ch04.function2 import function_2
-from ch04.numericalGradient import numerical_gradient
+from ch04.numericalGradient import numerical_gradient_2d
 
 import matplotlib.pylab as plt
 
@@ -14,7 +14,7 @@ def gradient_descent(f, init_x, lr=0.01, step_num=100):
 
     for i in range(step_num):
         x_history.append(x.copy())
-        grad = numerical_gradient(f, x)
+        grad = numerical_gradient_2d(f, x)
         x -= lr * grad
 
     return x, np.array(x_history)
