@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e07840-5994-4458-87cd-4d391477017c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch04/gradientSimplenet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch04/trainNueralNet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch04/twoLayerNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/buyApple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/buyAppleOrange.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/layerNative.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch03/ReLUFunction.py" afterPath="$PROJECT_DIR$/ch03/ReLUFunction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch03/sigmoidFunction.py" afterPath="$PROJECT_DIR$/ch03/sigmoidFunction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch03/softmaxFunction.py" afterPath="$PROJECT_DIR$/ch03/softmaxFunction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch03/stepFunction.py" afterPath="$PROJECT_DIR$/ch03/stepFunction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch04/crossEntropyError.py" afterPath="$PROJECT_DIR$/ch04/crossEntropyError.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch04/gradientMethod.py" afterPath="$PROJECT_DIR$/ch04/gradientMethod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch04/numericalGradient.py" afterPath="$PROJECT_DIR$/ch04/numericalGradient.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch04/plotGradient2d.py" afterPath="$PROJECT_DIR$/ch04/plotGradient2d.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch04/tangentLine.py" afterPath="$PROJECT_DIR$/ch04/tangentLine.py" />
     </list>
     <ignored path="DeepLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +23,8 @@
     <SUITE FILE_PATH="coverage/DeepLearning$sigmoidFunction.coverage" NAME="sigmoidFunction Coverage Results" MODIFIED="1475521764629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$stepFunction.coverage" NAME="stepFunction Coverage Results" MODIFIED="1475521510517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$softmaxFunction.coverage" NAME="softmaxFunction Coverage Results" MODIFIED="1475598598328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
+    <SUITE FILE_PATH="coverage/DeepLearning$buyAppleOrange.coverage" NAME="buyAppleOrange Coverage Results" MODIFIED="1475778368054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
+    <SUITE FILE_PATH="coverage/DeepLearning$buyApple.coverage" NAME="buyApple Coverage Results" MODIFIED="1475777956127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
     <SUITE FILE_PATH="coverage/DeepLearning$numericalGradient.coverage" NAME="numericalGradient Coverage Results" MODIFIED="1475771513016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
     <SUITE FILE_PATH="coverage/DeepLearning$showMnist.coverage" NAME="showMnist Coverage Results" MODIFIED="1475599540567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$gradientMethod.coverage" NAME="gradientMethod Coverage Results" MODIFIED="1475693572644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
@@ -77,16 +70,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sigmoidFunction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch03/sigmoidFunction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="twoLayerNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch04/twoLayerNet.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trainNueralNet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trainNueralNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch04/trainNueralNet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -111,21 +94,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="softmaxFunction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch03/softmaxFunction.py">
+      <file leaf-file-name="layerNative.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch05/layerNative.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="435">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meanSquaredError.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch04/meanSquaredError.py">
+      <file leaf-file-name="buyApple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch05/buyApple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buyAppleOrange.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch05/buyAppleOrange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -229,6 +222,9 @@
         <option value="$PROJECT_DIR$/ch03/sigmoidFunction.py" />
         <option value="$PROJECT_DIR$/ch04/twoLayerNet.py" />
         <option value="$PROJECT_DIR$/ch04/trainNueralNet.py" />
+        <option value="$PROJECT_DIR$/ch05/buyApple.py" />
+        <option value="$PROJECT_DIR$/ch05/layerNative.py" />
+        <option value="$PROJECT_DIR$/ch05/buyAppleOrange.py" />
       </list>
     </option>
   </component>
@@ -298,6 +294,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dataset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch05" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,43 +393,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.trainNueralNet">
-    <configuration default="false" name="numericalGradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeepLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/numericalGradient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="gradientMethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeepLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/gradientMethod.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.buyAppleOrange">
     <configuration default="false" name="gradientSimplenet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -470,6 +444,42 @@
       <module name="DeepLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/trainNueralNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="buyApple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/buyApple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="buyAppleOrange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05/buyAppleOrange.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -683,19 +693,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.numericalGradient" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gradientMethod" />
-      <item index="2" class="java.lang.String" itemvalue="Python.gradientSimplenet" />
-      <item index="3" class="java.lang.String" itemvalue="Python.twoLayerNet" />
-      <item index="4" class="java.lang.String" itemvalue="Python.trainNueralNet" />
+      <item index="0" class="java.lang.String" itemvalue="Python.gradientSimplenet" />
+      <item index="1" class="java.lang.String" itemvalue="Python.twoLayerNet" />
+      <item index="2" class="java.lang.String" itemvalue="Python.trainNueralNet" />
+      <item index="3" class="java.lang.String" itemvalue="Python.buyApple" />
+      <item index="4" class="java.lang.String" itemvalue="Python.buyAppleOrange" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.trainNueralNet" />
-        <item index="1" class="java.lang.String" itemvalue="Python.twoLayerNet" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gradientSimplenet" />
-        <item index="3" class="java.lang.String" itemvalue="Python.numericalGradient" />
-        <item index="4" class="java.lang.String" itemvalue="Python.gradientMethod" />
+        <item index="0" class="java.lang.String" itemvalue="Python.buyAppleOrange" />
+        <item index="1" class="java.lang.String" itemvalue="Python.buyApple" />
+        <item index="2" class="java.lang.String" itemvalue="Python.trainNueralNet" />
+        <item index="3" class="java.lang.String" itemvalue="Python.twoLayerNet" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gradientSimplenet" />
       </list>
     </recent_temporary>
   </component>
@@ -777,28 +787,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch03/sigmoidFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch03/ReLUFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch01/plotSinCos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch01/plotSin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1147,6 +1135,30 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/layerNative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/buyApple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/buyAppleOrange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
