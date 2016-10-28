@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e07840-5994-4458-87cd-4d391477017c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/overfitDropout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/functions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/gradient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/layers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/multi_layer_net.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/multi_layer_net_extend.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/optimizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/trainer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/hyperparameterOptimization.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/util.py" afterPath="$PROJECT_DIR$/common/util.py" />
     </list>
     <ignored path="DeepLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,6 +44,7 @@
     <SUITE FILE_PATH="coverage/DeepLearning$batch_norm_test.coverage" NAME="batch_norm_test Coverage Results" MODIFIED="1476472226073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch06" />
     <SUITE FILE_PATH="coverage/DeepLearning$nueralNetwark.coverage" NAME="nueralNetwark Coverage Results" MODIFIED="1475597920682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$twoLayerNet.coverage" NAME="twoLayerNet Coverage Results" MODIFIED="1475774069362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch04" />
+    <SUITE FILE_PATH="coverage/DeepLearning$hyperparameterOptimization.coverage" NAME="hyperparameterOptimization Coverage Results" MODIFIED="1477673788817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch06" />
     <SUITE FILE_PATH="coverage/DeepLearning$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1475598942401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$gateXor.coverage" NAME="gateXor Coverage Results" MODIFIED="1475520340644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch02" />
     <SUITE FILE_PATH="coverage/DeepLearning$loadMnist.coverage" NAME="loadMnist Coverage Results" MODIFIED="1475599245231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
@@ -95,13 +88,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overfitDropout.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="overfitDropout.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch06/overfitDropout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyperparameterOptimization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch06/hyperparameterOptimization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ch03/nueralNetwarkForMNist.py" />
         <option value="$PROJECT_DIR$/ch03/nueralNetwarkBatchForMNist.py" />
         <option value="$PROJECT_DIR$/ch04/meanSquaredError.py" />
         <option value="$PROJECT_DIR$/ch04/randomChoiceData.py" />
@@ -203,6 +207,7 @@
         <option value="$PROJECT_DIR$/ch06/overfitWeightDecay.py" />
         <option value="$PROJECT_DIR$/ch06/overfitDropout.py" />
         <option value="$PROJECT_DIR$/common/trainer.py" />
+        <option value="$PROJECT_DIR$/ch06/hyperparameterOptimization.py" />
       </list>
     </option>
   </component>
@@ -303,8 +308,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/ch06" />
+      <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/ch05" />
       <recent name="$PROJECT_DIR$/ch04" />
       <recent name="$PROJECT_DIR$/ch03" />
@@ -316,25 +321,7 @@
       <recent name="$PROJECT_DIR$/ch01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.overfitDropout">
-    <configuration default="false" name="wightInitActivationHistogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeepLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/weightInitActivationHistogram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.hyperparameterOptimization">
     <configuration default="false" name="weight_init_compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -403,6 +390,24 @@
       <module name="DeepLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/overfitDropout.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hyperparameterOptimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/hyperparameterOptimization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -616,19 +621,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.wightInitActivationHistogram" />
-      <item index="1" class="java.lang.String" itemvalue="Python.weight_init_compare" />
-      <item index="2" class="java.lang.String" itemvalue="Python.batch_norm_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.overfitWeightDecay" />
-      <item index="4" class="java.lang.String" itemvalue="Python.overfitDropout" />
+      <item index="0" class="java.lang.String" itemvalue="Python.weight_init_compare" />
+      <item index="1" class="java.lang.String" itemvalue="Python.batch_norm_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.overfitWeightDecay" />
+      <item index="3" class="java.lang.String" itemvalue="Python.overfitDropout" />
+      <item index="4" class="java.lang.String" itemvalue="Python.hyperparameterOptimization" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.overfitDropout" />
-        <item index="1" class="java.lang.String" itemvalue="Python.overfitWeightDecay" />
-        <item index="2" class="java.lang.String" itemvalue="Python.batch_norm_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.weight_init_compare" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wightInitActivationHistogram" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hyperparameterOptimization" />
+        <item index="1" class="java.lang.String" itemvalue="Python.overfitDropout" />
+        <item index="2" class="java.lang.String" itemvalue="Python.overfitWeightDecay" />
+        <item index="3" class="java.lang.String" itemvalue="Python.batch_norm_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.weight_init_compare" />
       </list>
     </recent_temporary>
   </component>
@@ -710,13 +715,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch04/plotGradient1d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch04/tangentLine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -974,7 +972,7 @@
         <state relative-caret-position="30">
           <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
           <folding>
-            <element signature="e#16#30#0" expanded="true" />
+            <element signature="e#16#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -984,7 +982,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,7 +992,7 @@
         <state relative-caret-position="300">
           <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,7 +1010,7 @@
         <state relative-caret-position="216">
           <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
           <folding>
-            <element signature="e#16#30#0" expanded="true" />
+            <element signature="e#16#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1093,10 +1091,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch06/overfitDropout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="525">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/hyperparameterOptimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
