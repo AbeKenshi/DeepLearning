@@ -12,7 +12,9 @@ import matplotlib.pyplot as plt
 x_train = x_train[:300]
 t_train = t_train[:300]
 
-network = MultiLayerNet(input_size=784, hidden_size_list=[100, 100, 100, 100, 100, 100], output_size=10)
+weight_decay_lambda = 0.1
+network = MultiLayerNet(input_size=784, hidden_size_list=[100, 100, 100, 100, 100, 100], output_size=10,
+                        weight_decay_lambda=weight_decay_lambda)
 optimizer = SGD(lr=0.01)  # 学習係数0.01のSGDでパラメータ更新
 
 max_epochs = 201
