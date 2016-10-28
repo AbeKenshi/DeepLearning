@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e07840-5994-4458-87cd-4d391477017c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/affine.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/gradientCheck.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/relu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/sigmoid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/softmaxWithLoss.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/trainNueralnet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch05/twoLayerNet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/adagrad.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/adam.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/batchNormalization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/batch_norm_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/dropout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/momentum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/multiLayerNet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/multi_layer_net_extend.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/optimizerCompareMNIST.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/optimizerCompareNative.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/sgd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/weightInitActivationHistogram.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/weight_init_compare.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch06/overfitWeightDecay.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DeepLearning.iws" />
@@ -43,6 +23,7 @@
     <SUITE FILE_PATH="coverage/DeepLearning$sigmoidFunction.coverage" NAME="sigmoidFunction Coverage Results" MODIFIED="1475521764629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$stepFunction.coverage" NAME="stepFunction Coverage Results" MODIFIED="1475521510517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
     <SUITE FILE_PATH="coverage/DeepLearning$softmaxFunction.coverage" NAME="softmaxFunction Coverage Results" MODIFIED="1475598598328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch03" />
+    <SUITE FILE_PATH="coverage/DeepLearning$overfitWeightDecay.coverage" NAME="overfitWeightDecay Coverage Results" MODIFIED="1477667925644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch06" />
     <SUITE FILE_PATH="coverage/DeepLearning$buyAppleOrange.coverage" NAME="buyAppleOrange Coverage Results" MODIFIED="1475778368054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
     <SUITE FILE_PATH="coverage/DeepLearning$trainNueralnet.coverage" NAME="trainNueralnet Coverage Results" MODIFIED="1475874173576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
     <SUITE FILE_PATH="coverage/DeepLearning$buyApple.coverage" NAME="buyApple Coverage Results" MODIFIED="1475777956127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch05" />
@@ -83,46 +64,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="affine.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch05/affine.py">
+      <file leaf-file-name="overfitWeightDecay.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch06/overfitWeightDecay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="batch_norm_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch06/batch_norm_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="e#16#30#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multi_layer_net_extend.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch06/multi_layer_net_extend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="140" column="27" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="27" />
-              <folding>
-                <element signature="e#16#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="batchNormalization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch06/batchNormalization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -130,8 +79,8 @@
       <file leaf-file-name="weightInitActivationHistogram.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch06/weightInitActivationHistogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -142,8 +91,8 @@
       <file leaf-file-name="multiLayerNet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch06/multiLayerNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="127">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="e#16#30#0" expanded="true" />
               </folding>
@@ -166,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dataset/mnist.py" />
         <option value="$PROJECT_DIR$/ch03/loadMnist.py" />
         <option value="$PROJECT_DIR$/ch03/showMnist.py" />
         <option value="$PROJECT_DIR$/ch03/nueralNetwarkForMNist.py" />
@@ -217,6 +165,7 @@
         <option value="$PROJECT_DIR$/ch06/batchNormalization.py" />
         <option value="$PROJECT_DIR$/ch06/batch_norm_test.py" />
         <option value="$PROJECT_DIR$/ch06/multi_layer_net_extend.py" />
+        <option value="$PROJECT_DIR$/ch06/overfitWeightDecay.py" />
       </list>
     </option>
   </component>
@@ -257,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,68 +234,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dataset" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ch06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -372,25 +265,7 @@
       <recent name="$PROJECT_DIR$/ch02" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.batch_norm_test">
-    <configuration default="false" name="optimizerCompareNative" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeepLearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/optimizerCompareNative.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.overfitWeightDecay">
     <configuration default="false" name="optimizerCompareMNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -459,6 +334,24 @@
       <module name="DeepLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/batch_norm_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="overfitWeightDecay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/overfitWeightDecay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -672,19 +565,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.optimizerCompareNative" />
-      <item index="1" class="java.lang.String" itemvalue="Python.optimizerCompareMNIST" />
-      <item index="2" class="java.lang.String" itemvalue="Python.wightInitActivationHistogram" />
-      <item index="3" class="java.lang.String" itemvalue="Python.weight_init_compare" />
-      <item index="4" class="java.lang.String" itemvalue="Python.batch_norm_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.optimizerCompareMNIST" />
+      <item index="1" class="java.lang.String" itemvalue="Python.wightInitActivationHistogram" />
+      <item index="2" class="java.lang.String" itemvalue="Python.weight_init_compare" />
+      <item index="3" class="java.lang.String" itemvalue="Python.batch_norm_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.overfitWeightDecay" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.batch_norm_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.weight_init_compare" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wightInitActivationHistogram" />
-        <item index="3" class="java.lang.String" itemvalue="Python.optimizerCompareMNIST" />
-        <item index="4" class="java.lang.String" itemvalue="Python.optimizerCompareNative" />
+        <item index="0" class="java.lang.String" itemvalue="Python.overfitWeightDecay" />
+        <item index="1" class="java.lang.String" itemvalue="Python.batch_norm_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.weight_init_compare" />
+        <item index="3" class="java.lang.String" itemvalue="Python.wightInitActivationHistogram" />
+        <item index="4" class="java.lang.String" itemvalue="Python.optimizerCompareMNIST" />
       </list>
     </recent_temporary>
   </component>
@@ -766,13 +659,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch02/gateAnd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch03/loadMnist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -946,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,9 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,13 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-          <folding>
-            <marker date="1476465093000" expanded="true" signature="36:492" ph="..." />
-            <marker date="1476465093000" expanded="true" signature="83:159" ph="..." />
-            <marker date="1476465093000" expanded="true" signature="197:492" ph="..." />
-            <marker date="1476465093000" expanded="true" signature="224:341" ph="..." />
-            <marker date="1476465093000" expanded="true" signature="376:492" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,17 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch06/multiLayerNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,9 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,17 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch06/weightInitActivationHistogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,9 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,7 +938,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/relu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/crossEntropyError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1110,37 +970,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch06/dropout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch06/batch_norm_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch05/relu.py">
+    <entry file="file://$PROJECT_DIR$/ch06/multi_layer_net_extend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch04/crossEntropyError.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#16#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,12 +998,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch06/multi_layer_net_extend.py">
+    <entry file="file://$PROJECT_DIR$/ch06/multiLayerNet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="140" column="27" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="27" />
+        <state relative-caret-position="127">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/weightInitActivationHistogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06/overfitWeightDecay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
